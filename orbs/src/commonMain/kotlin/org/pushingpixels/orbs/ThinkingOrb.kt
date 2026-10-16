@@ -65,7 +65,7 @@ public fun ThinkingOrb(
                 color = Color(red = g, green = g, blue = g, alpha = (alpha * 255).roundToInt()),
                 start = Offset(line.x1.toFloat(), line.y1.toFloat()),
                 end = Offset(line.x2.toFloat(), line.y2.toFloat()),
-                strokeWidth = line.w.toFloat()
+                strokeWidth = line.w.toFloat() * density
             )
         }
 
