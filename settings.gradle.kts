@@ -31,4 +31,5 @@ dependencyResolutionManagement {
 include(":orbs")
 include(":sample:sharedUI")
 include(":sample:webApp")
+include(":demo")
 

@@ -8,6 +8,7 @@ plugins {
 kotlin {
     js { browser() }
     wasmJs { browser() }
+    jvm("desktop")
 
     sourceSets {
         commonMain.dependencies {
